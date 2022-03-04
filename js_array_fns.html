@@ -1,0 +1,25 @@
+<html>
+<body>
+<h3>Array Functions</h3>
+<script language="javascript" type="text/javascript">
+var student1=["jaise","aswathy","anju","aiswarya"];
+document.write("length: ",student1.length,"<br>");
+document.write("sort: ",student1.sort(),"<br>");
+student1.push("hamna");
+document.write("push & toString: ",student1.toString(),"<br>");
+student1.pop();
+document.write("pop: ",student1.toString(),"<br>");
+student1.shift();
+document.write("shift: ",student1.toString(),"<br>");
+student1.unshift("feba");
+document.write("unshift: ",student1.toString(),"<br>");
+document.write("join: ",student1.join("*"),"<br>");
+student1.splice(2,0,"harishma");
+document.write("splice: ",student1.toString(),"<br>");
+var student2=["vismaya","dona"];
+var student=student1.concat(student2);
+document.write("concat: ",student.toString(),"<br>");
+document.write("slice: ",student.slice(5));
+</script>
+</body>
+</html>
